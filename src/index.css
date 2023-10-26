@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+}
+
+#root {
+  background-color: silver;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+    background-color: silver;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+li {
+  padding: 0 10px;
+}
+
+
+.card {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: #3786fc;
+  border-color: #3786fc;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(8, 107, 255, 0.582);
+}
+
+@media (max-width: 768px) {
+  ul li {
+    margin-bottom: 15px;
+  }
+}
