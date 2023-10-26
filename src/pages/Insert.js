@@ -42,11 +42,11 @@ function Insert(props) {
         <Card>
           <ul className="d-md-flex align-items-end">
             <li className="col-md-2">
-              <label htmlFor="inputName">Ime</label>
+              <label htmlFor="inputName">Firstname</label>
               <input type="text" className="form-control" id="inputName" placeholder="Firstname" ref={nameRef} />
             </li>
             <li className="col-md-2">
-              <label htmlFor="inputSurname">Prezime</label>
+              <label htmlFor="inputSurname">Lastname</label>
               <input type="text" className="form-control" id="inputSurname" placeholder="Lastname" ref={surnameRef} />
             </li>
             <li className="col-md-3">
